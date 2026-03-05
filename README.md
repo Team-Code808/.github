@@ -10,10 +10,6 @@
 
 # 👥 사용자 역할별 주요 기능
 
-CalmDesk는 사용자의 역할(관리자 및 일반 직원)에 따라 최적화된 인터페이스와 기능을 제공합니다.
-
-<br>
-
 ## 💼 관리자 페이지 (Admin)
 > 기업의 자원을 효율적으로 운영하고 조직원의 정서적 건강을 관리합니다.
 
@@ -41,7 +37,7 @@ CalmDesk는 사용자의 역할(관리자 및 일반 직원)에 따라 최적화
 
 ### 🖼️ 헤더 네비게이션 
 - 대시보드: 개인 업무 통계 및 정서 지수 요약 정보 확인.
-- 
+  
 - 부서정보: 소속 부서의 팀원 명단 및 조직도 확인.
   
 - 근태관리: 실시간 출퇴근 체크 및 연차 사용 내역 관리.
@@ -55,7 +51,7 @@ CalmDesk는 사용자의 역할(관리자 및 일반 직원)에 따라 최적화
 
 ### 💬 실시간 소통 및 알림
 - 실시간 챗봇: AI 비서 기능을 통해 업무 관련 질문에 즉각적인 답변 제공.
-- 상담 채팅: 전문 상담사와 1:1 채팅을 통한 실시간 정서 케어 및 업무 지원.
+- 그룹 채팅: N:N 또는 1:1 채팅을 통한 실시간 정서 케어 및 업무 지원.
 - 스마트 알림 센터: SSE기술을 활용하여 휴가 승인, 공지사항 등을 실시간 푸시 알림으로 수신.
 
 ---
@@ -86,7 +82,7 @@ CalmDesk는 사용자의 역할(관리자 및 일반 직원)에 따라 최적화
 
 
 
-&nbsp;&nbsp;&nbsp;  Backend/ <details><summary></summary>
+&nbsp;&nbsp;&nbsp;  Backend <details><summary></summary>
 
 <pre>
     ├── src/main/java/com/code808/calmdesk/
@@ -118,7 +114,7 @@ CalmDesk는 사용자의 역할(관리자 및 일반 직원)에 따라 최적화
 </pre>
 </details>
 
-  &nbsp;&nbsp;&nbsp;Frontend/ <details><summary></summary>
+  &nbsp;&nbsp;&nbsp;Frontend <details><summary></summary>
 <pre>
     ├── src/
         ├── components/         # 재사용 UI 컴포넌트
@@ -158,9 +154,3 @@ CalmDesk는 사용자의 역할(관리자 및 일반 직원)에 따라 최적화
    npm run dev
    ```
 
----
-
-## 📝 가이드 문서 (백엔드)
-- [데이터 흐름 가이드](Backend/BACKEND-FLOW-GUIDE.md)
-- [프로필 기능 구현기](Backend/PROFILE-BLOG-POST.md)
-- [테스트 가이드](Backend/test-guide.md)
