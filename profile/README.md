@@ -1,14 +1,37 @@
-# <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/a7d17e66-ec46-495f-bac1-f3aebd97e7bd" /> CalmDesk (칼름데스크) <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/a7d17e66-ec46-495f-bac1-f3aebd97e7bd" />
+<h1 align="center"><img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/a7d17e66-ec46-495f-bac1-f3aebd97e7bd" /> CalmDesk (칼름데스크) <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/a7d17e66-ec46-495f-bac1-f3aebd97e7bd" /></h1>
 
+<h4 align="center">
 **CalmDesk**는 콜센터 상담 인력이 겪는 감정 노동과 정신적 부담을 체계적으로 관리하고 보호하기 위한 HR·건강 통합 관리 시스템입니다. <br>
 상담 중 발생하는 스트레스와 악성 민원 노출을 정량적으로 분석하여 상담원을 보호할 수 있는 실질적인 관리 체계를 제공합니다.
+</h4>
 
 ---
 
 <br>
 <br>
 
-# 👥 사용자 역할별 주요 기능
+## 📘 개발 목표 (Development Goals)
+1️⃣ 상담원 정서 보호 
+
+- AI를 활용해 콜센터 상담원의 스트레스 상태를 분석하고 관리하는 시스템을 구축하여, 고위험군 발생 시 상담 매칭 및 강제 휴식(Cooldown)을 통해 번아웃을 예방.
+
+2️⃣ 데이터 기반 조직 관리 
+
+- 근태 정보와 스트레스 데이터를 연동해 직원의 건강 상태까지 고려한 스마트 관리 환경을 제공하고, 통합 대시보드를 통해 조직 상태를 직관적으로 파악할 수 있도록 지원.
+
+3️⃣ 멀티테넌시 기반 확장성
+
+- 기업별 데이터가 완전히 분리되도록 멀티테넌시 구조를 설계하여 여러 기업이 독립적으로 사용할 수 있는 확장 가능한 구독형 서비스 환경을 제공.
+
+4️⃣ 실시간 소통 및 참여 유도 
+
+- WebSocket과 SSE를 활용한 실시간 알림 및 채팅 기능과 포인트·기프티콘 보상 체계를 통해 직원 참여와 서비스 몰입도를 높임.
+
+<br>
+<br>
+
+
+# 🌟 사용자 역할별 주요 기능
 
 ## 💼 관리자 페이지 (Admin)
 > 기업의 자원을 효율적으로 운영하고 조직원의 정서적 건강을 관리합니다.
@@ -76,16 +99,35 @@
 | | 상태 / 스타일링 | Zustand , Styled-components, Vanilla CSS |
 | | 데이터 시각화 | Recharts , Lucide React |
 | | 통신 라이브러리 | Axios, StompJS |
+| | 소통 | Slack, Notion, 카카오톡 |
 
 
 ---
 
-<br>
+<br><br>
+
+# 🎬 시연 화면 (Demonstration)
+
+| 직원의 페이지 | 관리자 페이지 |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/f601965e-97cf-4be7-bdef-049674fc05f2" width="600" />  | <img src="https://github.com/user-attachments/assets/ce1e75c6-7451-42ba-a57f-3f81fdf18ef5" width="600" /> |
+
+| 실시간 포인트몰 업데이트 | 미션 진행/완료 | 근태 신청 |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/87d8550a-2f09-4c05-94e9-680982779d6b" width="500" /> | <img src="https://github.com/user-attachments/assets/385850a7-0cde-46bb-947a-62b6edfb47ae" width="500" /> | <img src="https://github.com/user-attachments/assets/1655abb1-23d6-4762-834e-07c4e27a3fe3" width="400" /> |
+
+
+| 알림 | 채팅 | 욕설 녹음 |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/be866c00-0ba7-4a15-8126-f6d543964415" width="550" /> | <img src="https://github.com/user-attachments/assets/1ec45021-c2eb-4c1f-bc6f-521efde69794" width="550" /> | <img src="https://via.placeholder.com/400x225.png?text=Point+Mall" width="550" /> |
+
+---
+
+<br><br>
 
 ### 📂 프로젝트 구조 (Project Structure)
 
-
-
+<pre>
 &nbsp;&nbsp;&nbsp;  Backend <details><summary></summary>
 
 <pre>
@@ -130,6 +172,7 @@
         └── utils/              # 공용 유틸리티 함수
 </pre>
 </details>
+</pre>
 
 ---
 
@@ -157,4 +200,28 @@
    npm install
    npm run dev
    ```
+
+<br><br>
+
+## 🏆 최종 프로젝트 PPT 🏆 ##
+
+<a href="https://file.notion.so/f/f/b57435fc-bd9d-8113-8fa8-00031ce9b39d/d2c971fa-1747-4422-aa5f-04944dcd1bd1/2%EC%B0%A8_%EA%B3%A0%EB%8F%84%ED%99%94_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_3%EC%A1%B0.pdf?table=block&id=314435fc-bd9d-803f-b460-e7e601fa33b1&spaceId=b57435fc-bd9d-8113-8fa8-00031ce9b39d&expirationTimestamp=1772985600000&signature=lb4J_sVLUBKmgxRctfKdQs9Lt0YmNGUq-vCJJTlz8ZI&downloadName=2%EC%B0%A8+%EA%B3%A0%EB%8F%84%ED%99%94+%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_3%EC%A1%B0.pdf" 
+   style="font-size: 24px;         /* 글씨 크기 확대 */
+          color: #DC3545;          /* 강렬한 빨간색 */
+          font-weight: 900;        /* 폰트 굵기를 최대로 */
+          text-decoration: underline;"> 🔥 CalmDesk 최종 프로젝트 보고서 🔥
+</a>
+
+<br><br>
+
+
+## 🤝 프로젝트 팀 구성 및 역할 분담
+
+| 이름 | 포지션 | 담당 역할 | GitHub / Contact |
+| :---: | :---: | :---: | :--- |
+| 👑 **박준언** | **조장 (Team Lead)** | 프로젝트 총괄 및 의사 결정 | **[GitHub: 박준언](https://github.com/junown)** |
+| ⚙️ **백승원** | **형상 관리자 (SCM)** | Git 브랜치 전략 및 버전 관리 | **[메일: 백승원](paiktmddnjs@naver.com)** |
+| 🗄️ **김정훈** | **DB 관리자** | 데이터베이스 설계 및 초기 구축 | **[GitHub: 김정훈](https://github.com/kimsesdook)** |
+| 🗓️ **장원석** | **일정 관리자** | Sprint 및 마일스톤 관리 | **[GitHub: 장원석](https://github.com/1suk)** |
+| 🐞 **조치호** | **이슈 관리자** | 이슈 트래킹 및 피드백 통합 관리 | **[GitHub: 조치호](https://github.com/xxh3898)** |
 
