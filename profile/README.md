@@ -11,21 +11,21 @@
 <br>
 
 ## 📘 개발 목표 (Development Goals)
-1️⃣ 상담원 정서 보호 
+### 1️⃣ 상담원 정서 보호 
 
-- AI를 활용해 콜센터 상담원의 스트레스 상태를 분석하고 관리하는 시스템을 구축하여, 고위험군 발생 시 상담 매칭 및 강제 휴식(Cooldown)을 통해 번아웃을 예방.
+🔹 AI를 활용해 콜센터 상담원의 스트레스 상태를 분석하고 관리하는 시스템을 구축하여, 고위험군 발생 시 상담 매칭 및 강제 휴식(Cooldown)을 통해 번아웃을 예방.
 
-2️⃣ 데이터 기반 조직 관리 
+### 2️⃣ 데이터 기반 조직 관리 
 
-- 근태 정보와 스트레스 데이터를 연동해 직원의 건강 상태까지 고려한 스마트 관리 환경을 제공하고, 통합 대시보드를 통해 조직 상태를 직관적으로 파악할 수 있도록 지원.
+🔹 근태 정보와 스트레스 데이터를 연동해 직원의 건강 상태까지 고려한 스마트 관리 환경을 제공하고, 통합 대시보드를 통해 조직 상태를 직관적으로 파악할 수 있도록 지원.
 
-3️⃣ 멀티테넌시 기반 확장성
+### 3️⃣ 멀티테넌시 기반 확장성
 
-- 기업별 데이터가 완전히 분리되도록 멀티테넌시 구조를 설계하여 여러 기업이 독립적으로 사용할 수 있는 확장 가능한 구독형 서비스 환경을 제공.
+🔹 기업별 데이터가 완전히 분리되도록 멀티테넌시 구조를 설계하여 여러 기업이 독립적으로 사용할 수 있는 확장 가능한 구독형 서비스 환경을 제공.
 
-4️⃣ 실시간 소통 및 참여 유도 
+### 4️⃣ 실시간 소통 및 참여 유도 
 
-- WebSocket과 SSE를 활용한 실시간 알림 및 채팅 기능과 포인트·기프티콘 보상 체계를 통해 직원 참여와 서비스 몰입도를 높임.
+🔹 WebSocket과 SSE를 활용한 실시간 알림 및 채팅 기능과 포인트·기프티콘 보상 체계를 통해 직원 참여와 서비스 몰입도를 높임.
 
 <br>
 <br>
@@ -125,54 +125,67 @@
 
 <br><br>
 
-### 📂 프로젝트 구조 (Project Structure)
+## 📂 프로젝트 구조 (Project Structure)
 
-<pre>
-&nbsp;&nbsp;&nbsp;  Backend <details><summary></summary>
 
-<pre>
-    ├── src/main/java/com/code808/calmdesk/
-    │   ├── domain/             # 핵심 비즈니스 로직
-    │   │   ├── ai/             # AI 서비스 통합
-    │   │   ├── attendance/     # 근태 및 연차 관리
-    │   │   ├── auth/           # 로그인 및 권한 인증
-    │   │   ├── businesscard/   # 명함 관리
-    │   │   ├── callrecord/     # STT 및 감정 분석
-    │   │   ├── chat/           # 실시간 채팅 모듈
-    │   │   ├── company/        # 회사 및 조직 관리
-    │   │   ├── consultation/   # 심리 상담 신청
-    │   │   ├── dashboard/      # 데이터 시각화
-    │   │   ├── gifticon/       # 복지 포인트 몰
-    │   │   ├── member/         # 사용자 정보 관리
-    │   │   ├── monitoring/     # 실시간 상태 모니터링
-    │   │   ├── mypage/         # 개인 설정
-    │   │   ├── Notification/   # 실시간 알림
-    │   │   ├── team/           # 팀 구성 관리
-    │   │   └── vacation/       # 휴가 결재 시스템 
-    │   └── global/             # 공통 설정 및 보안
-    │       ├── config/         # App/Security 설정
-    │       ├── dto/            # 공통 DTO
-    │       ├── exception/      # 예외 처리
-    │       └── security/       # JWT 설정
-    ├── src/main/resources/     # 환경 설정 및 SQL
-    ├── build.gradle            # 빌드 및 의존성 관리
-    └── docs/                   # 설계 및 가이드 문서
-</pre>
-</details>
+<br/>
 
-  &nbsp;&nbsp;&nbsp;Frontend <details><summary></summary>
-<pre>
-    ├── src/
-        ├── components/         # 재사용 UI 컴포넌트
-        ├── pages/              # 라우팅 페이지 구성
-        ├── store/              # Zustand 전역 상태 관리
-        ├── api/                # API 통신 설정
-        ├── assets/             # 이미지 및 스타일 자원
-        ├── hooks/              # 커스텀 React 훅
-        └── utils/              # 공용 유틸리티 함수
-</pre>
-</details>
-</pre>
+> ### ![Backend](https://img.shields.io/badge/Backend-4A90E2?style=for-the-badge&logo=spring&logoColor=white) 
+>
+> <details>
+> <summary><b>📂 Backend 상세 폴더 구조 보기 (Click to expand)</b></summary>
+>
+> <pre>
+> ├── src/main/java/com/code808/calmdesk/
+> │   ├── domain/             # 핵심 비즈니스 로직
+> │   │   ├── ai/             # AI 서비스 통합
+> │   │   ├── attendance/     # 근태 및 연차 관리
+> │   │   ├── auth/           # 로그인 및 권한 인증
+> │   │   ├── businesscard/   # 명함 관리
+> │   │   ├── callrecord/     # STT 및 감정 분석
+> │   │   ├── chat/           # 실시간 채팅 모듈
+> │   │   ├── company/        # 회사 및 조직 관리
+> │   │   ├── consultation/   # 심리 상담 신청
+> │   │   ├── dashboard/      # 데이터 시각화
+> │   │   ├── gifticon/       # 복지 포인트 몰
+> │   │   ├── member/         # 사용자 정보 관리
+> │   │   ├── monitoring/     # 실시간 상태 모니터링
+> │   │   ├── mypage/         # 개인 설정
+> │   │   ├── Notification/   # 실시간 알림
+> │   │   ├── team/           # 팀 구성 관리
+> │   │   └── vacation/       # 휴가 결재 시스템
+> │   └── global/             # 공통 설정 및 보안
+> │       ├── config/         # App/Security 설정
+> │       ├── dto/            # 공통 DTO
+> │       ├── exception/      # 예외 처리
+> │       └── security/       # JWT 설정
+> ├── src/main/resources/     # 환경 설정 및 SQL
+> ├── build.gradle            # 빌드 및 의존성 관리
+> └── docs/                   # 설계 및 가이드 문서
+> </pre>
+>
+> </details>
+>
+> <br/>
+>
+> ### ![Frontend](https://img.shields.io/badge/Frontend-50E3C2?style=for-the-badge&logo=react&logoColor=white) 
+>
+> <details>
+> <summary><b>📂 Frontend 상세 폴더 구조 보기 (Click to expand)</b></summary>
+> <pre>
+>    ├── src/
+>        ├── components/         # 재사용 UI 컴포넌트
+>        ├── pages/              # 라우팅 페이지 구성
+>        ├── store/              # Zustand 전역 상태 관리
+>        ├── api/                # API 통신 설정
+>        ├── assets/             # 이미지 및 스타일 자원
+>        ├── hooks/              # 커스텀 React 훅
+>        └── utils/              # 공용 유틸리티 함수
+> </pre>
+> </details>
+
+
+<br/>
 
 ---
 
