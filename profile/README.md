@@ -1,4 +1,5 @@
-<h1 align="center"><img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/a7d17e66-ec46-495f-bac1-f3aebd97e7bd" /> CalmDesk (칼름데스크) <img width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/a7d17e66-ec46-495f-bac1-f3aebd97e7bd" /></h1>
+<h1 align="center"><img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/864e2587-d2ab-4305-a134-8c71b75cd511" /></h1>
+<h1 align="center">CalmDesk (칼름데스크) </h1>
 
 <h4 align="center">
 **CalmDesk**는 콜센터 상담 인력이 겪는 감정 노동과 정신적 부담을 체계적으로 관리하고 보호하기 위한 HR·건강 통합 관리 시스템입니다. <br>
