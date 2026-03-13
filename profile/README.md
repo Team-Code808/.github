@@ -120,7 +120,7 @@
 
 | 출근 미션 , 상담신청 완료시 알림전송 | 타 직원간의 대화방을 만들어 실시간 채팅 | 욕설 녹음 |
 |:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/be866c00-0ba7-4a15-8126-f6d543964415" width="550" /> | <img src="https://github.com/user-attachments/assets/1ec45021-c2eb-4c1f-bc6f-521efde69794" width="550" /> | <img src="https://via.placeholder.com/400x225.png?text=Point+Mall" width="550" /> |
+| <img src="https://github.com/user-attachments/assets/be866c00-0ba7-4a15-8126-f6d543964415" width="550" /> | <img src="https://github.com/user-attachments/assets/1ec45021-c2eb-4c1f-bc6f-521efde69794" width="550" /> | <img src="https://github.com/user-attachments/assets/f3176b70-f687-407b-84de-dedbdb62b3ed" width="550" /> |
 
 ---
 
