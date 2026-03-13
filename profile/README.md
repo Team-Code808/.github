@@ -108,16 +108,16 @@
 
 # 🎬 시연 화면 (Demonstration)
 
-| 직원의 페이지 | 관리자 페이지 |
+| 직원으로 로그인 후 헤더를 통한 페이지 이동 | 관리자로 로그인 후 헤더를 통한 페이지 이동 |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/f601965e-97cf-4be7-bdef-049674fc05f2" width="600" />  | <img src="https://github.com/user-attachments/assets/ce1e75c6-7451-42ba-a57f-3f81fdf18ef5" width="600" /> |
 
-| 실시간 포인트몰 업데이트 | 미션 진행/완료 | 근태 신청 |
+| 관리자로 인한 실시간 포인트몰 관리  | 직원의 출근버튼 입력시 미션 진행/완료 | 직원이 근태신청시 관리자에게 승인받기  |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/87d8550a-2f09-4c05-94e9-680982779d6b" width="500" /> | <img src="https://github.com/user-attachments/assets/385850a7-0cde-46bb-947a-62b6edfb47ae" width="500" /> | <img src="https://github.com/user-attachments/assets/1655abb1-23d6-4762-834e-07c4e27a3fe3" width="400" /> |
 
 
-| 알림 | 채팅 | 욕설 녹음 |
+| 출근 , 미션 , 상담신청 완료시 알림전송 | 타 직원간의 대화방을 만들어 실시간 채팅 | 욕설 녹음 |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/be866c00-0ba7-4a15-8126-f6d543964415" width="550" /> | <img src="https://github.com/user-attachments/assets/1ec45021-c2eb-4c1f-bc6f-521efde69794" width="550" /> | <img src="https://via.placeholder.com/400x225.png?text=Point+Mall" width="550" /> |
 
@@ -233,7 +233,7 @@
 | 이름 | 포지션 | 담당 역할 | GitHub / Contact |
 | :---: | :---: | :---: | :--- |
 | 👑 **박준언** | **조장 (Team Lead)** | 프로젝트 총괄 및 의사 결정 | **[GitHub: 박준언](https://github.com/junown)** |
-| ⚙️ **백승원** | **형상 관리자 (SCM)** | Git 브랜치 전략 및 버전 관리 | **[메일: 백승원](paiktmddnjs@naver.com)** |
+| ⚙️ **백승원** | **형상 관리자** | Git 브랜치 전략 및 버전 관리 | **[메일: 백승원](paiktmddnjs@naver.com)** |
 | 🗄️ **김정훈** | **DB 관리자** | 데이터베이스 설계 및 초기 구축 | **[GitHub: 김정훈](https://github.com/kimsesdook)** |
 | 🗓️ **장원석** | **일정 관리자** | Sprint 및 마일스톤 관리 | **[GitHub: 장원석](https://github.com/1suk)** |
 | 🐞 **조치호** | **이슈 관리자** | 이슈 트래킹 및 피드백 통합 관리 | **[GitHub: 조치호](https://github.com/xxh3898)** |
