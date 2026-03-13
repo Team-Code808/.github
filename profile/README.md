@@ -219,7 +219,7 @@
 
 ## 🏆 최종 프로젝트 PPT 🏆 ##
 
-<a href="https://file.notion.so/f/f/b57435fc-bd9d-8113-8fa8-00031ce9b39d/d2c971fa-1747-4422-aa5f-04944dcd1bd1/2%EC%B0%A8_%EA%B3%A0%EB%8F%84%ED%99%94_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_3%EC%A1%B0.pdf?table=block&id=314435fc-bd9d-803f-b460-e7e601fa33b1&spaceId=b57435fc-bd9d-8113-8fa8-00031ce9b39d&expirationTimestamp=1772985600000&signature=lb4J_sVLUBKmgxRctfKdQs9Lt0YmNGUq-vCJJTlz8ZI&downloadName=2%EC%B0%A8+%EA%B3%A0%EB%8F%84%ED%99%94+%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_3%EC%A1%B0.pdf" 
+<a href="https://www.canva.com/design/DAHCTmWQkM0/V_8KTiPn3yDTZkF9QKyhqg/view?utm_content=DAHCTmWQkM0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3e6c73b7bf" 
    style="font-size: 24px;         /* 글씨 크기 확대 */
           color: #DC3545;          /* 강렬한 빨간색 */
           font-weight: 900;        /* 폰트 굵기를 최대로 */
