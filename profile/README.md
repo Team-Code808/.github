@@ -1,4 +1,4 @@
-<h1 align="center"><img width="200" height="200" alt="Image" src="https://github.com/user-attachments/assets/864e2587-d2ab-4305-a134-8c71b75cd511" /></h1>
+<h1 align="center"><img width="355" height="259" alt="Image" src="https://github.com/user-attachments/assets/6d64dc09-c195-464c-b834-4434ccc1af10" /></h1>
 <h1 align="center">CalmDesk (칼름데스크) </h1>
 
 <h4 align="center">
